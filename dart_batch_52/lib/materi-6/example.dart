@@ -1,10 +1,10 @@
 void main() async {
   var eAsync = ExampleAsync();
 
-  // eAsync.getDataBanner();
+  eAsync.getDataBanner();
   print('Guest 1');
-  // eAsync.getDataProduk();
-  await eAsync.getDataUser();
+  eAsync.getDataProduk();
+  // await eAsync.getDataUser();
   print('Guest 2');
   print('Guest ${eAsync.name}');
 }
